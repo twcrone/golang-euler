@@ -6,9 +6,7 @@ import (
 )
 
 func main() {
-
 	var sum = 0
-
 	for i := 1; i < 1000; i++ {
 		f := float64(i)
 		if math.Mod(f, float64(3)) == 0 {
@@ -17,6 +15,5 @@ func main() {
 			sum += i
 		}
 	}
-
 	fmt.Println(sum)
 }
